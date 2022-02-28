@@ -1,10 +1,10 @@
 package gomoduleexample
 
-func greeting(name string) string {
+func Greeting(name string) string {
 	return "Hello, " + name
 }
 
-func getCharFromString(str string, idx int) string {
+func GetCharFromString(str string, idx int) string {
 	temp := str[idx]
 	return string(temp)
 }
